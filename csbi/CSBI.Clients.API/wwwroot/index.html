@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Search clients</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            font: 14px normal Arial, sans-serif;
+            color: #626771;
+            background-color: #fff;
+        }
+
+        body {
+            padding: 60px;
+            text-align: center;
+        }
+
+        button,
+        input[type=text] {
+            text-align: center;
+            font: inherit;
+            border: 6px solid #a3d8d6;
+            padding: 13px 12px;
+            font-size: 15px;
+            box-shadow: 0 1px 1px #DDD;
+            width: 384px;
+            outline: none;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        ul {
+            list-style: none;
+            display: inline-block;
+            width: 420px;
+            text-align: left;
+        }
+
+            ul li {
+                display: block;
+                padding: 15px 20px;
+                background-color: #F8F8F8;
+                color: #7B8585;
+                margin-bottom: 3px;
+                position: relative;
+                transition: 0.3s;
+            }
+
+                ul li a {
+                    position: absolute;
+                    left: 160px;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color: #969d9d;
+                }
+
+                ul li:hover {
+                    background-color: #d8f2f1;
+                }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <!-- This element's contents will be replaced with your component. -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react-dom.js"></script>
+    <script src="js/app.jsx"></script>
+</body>
+</html>
